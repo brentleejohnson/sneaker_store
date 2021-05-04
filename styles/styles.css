@@ -83,6 +83,16 @@ img {
 }
 
 /* PLEASE START YOUR STYLES UNDERNEATH THIS */
+.social {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+}
+
+i {
+  margin-left: 25px;
+}
+
 #homePage {
   background: url(/images/banner.jpg);
   display: flex;
