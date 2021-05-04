@@ -83,3 +83,60 @@ img {
 }
 
 /* PLEASE START YOUR STYLES UNDERNEATH THIS */
+#homePage {
+  background: url(/images/banner.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-details {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.home-heading {
+  color: #464646;
+  font-size: 350%;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.red-text {
+  color: #ed2d34;
+}
+
+.home-details p {
+  width: 84%;
+  color: rgb(73, 73, 73);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.btn {
+  border: solid 2px #464646;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #464646;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  transition: 0.3s ease-in;
+  width: 30%;
+  padding: 15px 7px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+#productPage {
+  background: url(/images/banner2.jpg);
+}
+
+#testimonialPage {
+  background: url(/images/banner3.jpg);
+}
+
+#contactPage {
+  background: url(/images/banner4.jpg);
+}
