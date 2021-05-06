@@ -20,7 +20,7 @@ $(document).ready(function () {
     stagePadding: 200,
     loop: true,
     dots: false,
-    //   autoplay: true,
+    autoplay: false,
     center: true,
   });
 });
@@ -55,7 +55,7 @@ fetch(randomUserURL)
     //   Initialize testimonial slider
     $("#testimonial-slider").owlCarousel({
       loop: true,
-      autoplay: true,
+      autoplay: false,
       margin: 30,
     });
   });

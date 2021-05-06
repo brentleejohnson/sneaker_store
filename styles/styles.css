@@ -79,10 +79,11 @@
 
 /* Used to scale down the home image. You can remove this. */
 img {
-  max-width: 40vw;
+  max-width: 30vw;
 }
 
 /* PLEASE START YOUR STYLES UNDERNEATH THIS */
+/* SOCIAL */
 .social {
   position: fixed;
   top: 25px;
@@ -93,6 +94,7 @@ i {
   margin-left: 25px;
 }
 
+/* HOMEPAGE */
 #homePage {
   background: url(/images/banner.jpg);
   display: flex;
@@ -139,14 +141,77 @@ i {
   text-align: center;
 }
 
+/* PRODUCT PAGE */
 #productPage {
   background: url(/images/banner2.jpg);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 72%;
+  margin-top: 10%;
+}
+
+.page-heading {
+  color: #464646;
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+.page-subtitle {
+  color: #ed2d34;
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+.sales-art-cus {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.product-num {
+  color: #464646;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.product-des {
+  color: #464646;
+  font-weight: normal;
+  font-size: 50%;
+}
+
+#product-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px black solid;
+}
+
+.product {
+  width: 20%;
+  border: 1px black solid;
+}
+
+/* TESTIMONIAL PAGE */
 #testimonialPage {
   background: url(/images/banner3.jpg);
 }
 
+/* CONTACT PAGE */
 #contactPage {
   background: url(/images/banner4.jpg);
 }
