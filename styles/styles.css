@@ -92,9 +92,10 @@ img {
 /* PLEASE START YOUR STYLES UNDERNEATH THIS */
 /* SOCIAL */
 .social {
-  position: fixed;
+  position: absolute;
   top: 25px;
   right: 25px;
+  z-index: 1111;
 }
 
 i {
@@ -302,25 +303,31 @@ i {
 #contactPage {
   background-image: url(/images/banner4.jpg);
   background-size: cover;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: row;
-  padding: 0 10%;
+  justify-content: space-around;
 }
 
-div.under-header {
+.under-header {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 50%;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #contact-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 13%;
-  margin-left: 0px;
+  align-items: flex-start;
+  max-width: 50%;
+  width: 100%;
 }
 
 .contact-input {
@@ -341,43 +348,40 @@ div.under-header {
   padding-top: 30px;
   margin-bottom: 50px;
 }
-
 .contact-heading {
   margin-bottom: 30px;
 }
-
-.contact-details-heading {
-  font-size: 30px;
-}
-
 .contact-details-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
+.contact-details-heading {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
 .description {
   font-size: 18px;
   margin-bottom: 60px;
 }
-
 .contact-icon {
   margin-right: 20px;
   font-size: 2rem;
 }
-
 .details {
   font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 65%;
+  margin-bottom: 50px;
 }
-
 .unite {
   margin-left: 50px;
 }
-
 .num {
   margin-left: 30px;
 }
-
 .button {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
@@ -388,11 +392,14 @@ div.under-header {
   background-color: white;
   border: solid 2px #ed2d34;
   border-radius: 50px;
-  width: 100%;
+  width: 70%;
   transition: 0.3s ease-in;
 }
-
 .button:hover {
   color: white;
   background-color: #ed2d34;
+}
+.under-header header {
+  display: flex;
+  flex-direction: column;
 }
