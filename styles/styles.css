@@ -239,14 +239,22 @@ i {
 #testimonialPage {
   background: url(/images/banner3.jpg);
   background-size: cover;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: center;
+=======
+  display: grid;
+  place-items: center;
+>>>>>>> 0611436900ecea35e63759cb7c570759ad3d1c30
 }
 
 .testimonial-header-container {
   text-align: center;
+<<<<<<< HEAD
   margin-bottom: 70px;
+=======
+>>>>>>> 0611436900ecea35e63759cb7c570759ad3d1c30
 }
 
 .testimonial-heading {
@@ -261,6 +269,7 @@ i {
 }
 
 /* TESTIMONIAL SLIDER */
+<<<<<<< HEAD
 .owl-stage {
 }
 
@@ -282,25 +291,43 @@ i {
   color: #464646;
   font-weight: lighter;
   margin-bottom: 25px;
+=======
+.testimonial {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.testimonial-message {
+  max-width: 200px;
+>>>>>>> 0611436900ecea35e63759cb7c570759ad3d1c30
 }
 
 .testimonial-img {
   border-radius: 50%;
+<<<<<<< HEAD
   max-width: 70px;
   display: grid;
   place-items: center;
+=======
+>>>>>>> 0611436900ecea35e63759cb7c570759ad3d1c30
 }
 
 .testimonial-name {
   text-align: center;
   margin-top: 15px;
   color: #464646;
+<<<<<<< HEAD
   font-weight: lighter;
+=======
+  font-weight: bold;
+>>>>>>> 0611436900ecea35e63759cb7c570759ad3d1c30
   font-size: large;
 }
 
 /* CONTACT PAGE */
 #contactPage {
+<<<<<<< HEAD
   background-image: url(/images/banner4.jpg);
   background-size: cover;
   font-family: "Roboto", sans-serif;
@@ -402,4 +429,49 @@ i {
 .under-header header {
   display: flex;
   flex-direction: column;
+=======
+  background: url(/images/banner4.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+/* CONTACT CONTAINER */
+.contact-container {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  width: 100%;
+}
+
+/* CONTACT HEADER */
+.contact-header-container {
+}
+
+.contact-heading {
+}
+
+.contact-subtitle {
+}
+
+/* CONTACT DETAILS */
+.contact-details-container {
+}
+
+.contact-details-heading {
+}
+
+.contact-details-description {
+}
+
+/* CONTACT FORM */
+#contact-form {
+  border: 1px black solid;
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+>>>>>>> 0611436900ecea35e63759cb7c570759ad3d1c30
 }
