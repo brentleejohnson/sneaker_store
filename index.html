@@ -52,15 +52,15 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
+    <!-- Icons -->
+    <nav class="social">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-instagram"></i>
+    </nav>
     <div id="fullpage">
       <div class="section">
-        <!-- Icons -->
-        <nav class="social">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-instagram"></i>
-        </nav>
         <!-- Add classes where necessary and style the section appropriately -->
         <div id="homePage" class="content">
           <div class="home-details">
@@ -102,6 +102,12 @@
             <div id="product-slider" class="owl-carousel">
               <!-- Product Item 1 -->
               <div class="product">
+                <nav class="social">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-instagram"></i>
+                </nav>
                 <img src="./images/adidas-consortium.jpg" alt="Sneaker" />
                 <h3>Adidas Consortium</h3>
                 <button class="product-button" onclick="openModal()">
@@ -135,18 +141,38 @@
             </div>
             <div id="modal">
               <div class="modal-images">
-                <img class="big-modal-image" src="./images/adidas-consortium.jpg" alt="">
+                <img
+                  class="big-modal-image"
+                  src="./images/adidas-consortium.jpg"
+                  alt=""
+                />
                 <div class="small-modal-images">
-                  <img class="small-modal-image" src="./images/nike-air-mag.jpg" alt="">
-                  <img class="small-modal-image"src="/images/nike-air-max.jpg" alt="">
-                  <img class="small-modal-image"src="/images/salomon-sneakers.jpg" alt="">
+                  <img
+                    class="small-modal-image"
+                    src="./images/nike-air-mag.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="small-modal-image"
+                    src="/images/nike-air-max.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="small-modal-image"
+                    src="/images/salomon-sneakers.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
               <div>
                 <div>
                   <h5>Article</h5>
                   <h3 class="red-text">Salamon Sneakers</h3>
-                  <p>Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. </p>
+                  <p>
+                    Lorem ipsum is simply dummy text of the printing and
+                    typesetting. Lorem Ipsum has been the industry’s standard
+                    dummy.
+                  </p>
                 </div>
                 <div class="product-specs sizes">
                   <div id="act-size" class="red-text">Size:</div>
@@ -179,7 +205,9 @@
                 <a href="#" class="buy">Buy Now</a>
               </div>
               <!-- Button to close modal. Please style appropriately -->
-              <button onclick="openModal()"><i class="fas fa-times fa-2x close"></i></button>
+              <button onclick="openModal()">
+                <i class="fas fa-times fa-2x close"></i>
+              </button>
               <div class="arrows">
                 <span><i class="fas fa-chevron-left"></i></span>
                 <span><i class="fas fa-chevron-right"></i></span>
@@ -187,6 +215,7 @@
             </div>
           </div>
         </div>
+      </div>
       <div class="section">
         <div id="testimonialPage" class="content">
           <!-- Page header -->
@@ -247,7 +276,11 @@
           </div>
           <!-- CONTACT FORM -->
           <!-- Create new form on FORMSPREE and insert ULR in the ACTION ATTRIBUTE -->
-          <form id="contact-form">
+          <form
+            id="contact-form"
+            method="POST"
+            action="https://formspree.io/f/mdoyavaq"
+          >
             <input
               class="contact-input"
               type="text"
