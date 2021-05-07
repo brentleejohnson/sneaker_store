@@ -10,6 +10,7 @@
   width: 100%;
   height: 100%;
   margin-left: 60px;
+  font-family: sans-serif;
 }
 
 /* Navigation Tooltip Styling */
@@ -103,6 +104,7 @@ i {
 /* HOMEPAGE */
 #homePage {
   background: url(/images/banner.jpg);
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,6 +152,7 @@ i {
 /* PRODUCT PAGE */
 #productPage {
   background: url(/images/banner2.jpg);
+  background-size: cover;
   /* / padding: 10%; */
 }
 
@@ -207,6 +210,7 @@ i {
   justify-content: center; */
   /* border: 1px black solid; */
   max-width: 70%;
+  margin-top: 70px;
 }
 
 .product {
@@ -216,12 +220,115 @@ i {
   place-items: center;
 }
 
+#product-slider img {
+  max-width: 400px;
+}
+
+.product-button {
+  border-radius: 25px;
+  padding: 5% 10%;
+}
+
+#product-slider h3 {
+  color: #464646;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-size: 180%;
+}
+
+/* MODAL */
+
 /* TESTIMONIAL PAGE */
 #testimonialPage {
   background: url(/images/banner3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-header-container {
+  text-align: center;
+}
+
+.testimonial-heading {
+  color: #464646;
+  font-size: 175%;
+}
+
+.testimonial-subtitle {
+  color: #ed2d34;
+  font-size: 280%;
+  font-weight: bolder;
+}
+
+/* TESTIMONIAL SLIDER */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-message {
+  max-width: 200px;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  max-width: 70px;
+}
+
+.testimonial-name {
+  text-align: center;
+  margin-top: 15px;
+  color: #464646;
+  font-weight: bold;
+  font-size: large;
 }
 
 /* CONTACT PAGE */
 #contactPage {
   background: url(/images/banner4.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+/* CONTACT CONTAINER */
+.contact-container {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  width: 100%;
+}
+
+/* CONTACT HEADER */
+.contact-header-container {
+}
+
+.contact-heading {
+}
+
+.contact-subtitle {
+}
+
+/* CONTACT DETAILS */
+.contact-details-container {
+}
+
+.contact-details-heading {
+}
+
+.contact-details-description {
+}
+
+/* CONTACT FORM */
+#contact-form {
+  border: 1px black solid;
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
